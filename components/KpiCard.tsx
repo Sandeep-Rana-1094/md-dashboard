@@ -45,7 +45,7 @@ const KpiCard: React.FC<KpiCardProps> = ({ title, value, change, icon, color }) 
                 </div>
                 <div>
                     <p className="text-sm font-medium text-text-secondary">{title}</p>
-                    <p className="text-2xl font-bold text-text-primary">{value}</p>
+                    <p className="text-xl font-bold text-text-primary">{value}</p>
                 </div>
             </div>
             {change && (
